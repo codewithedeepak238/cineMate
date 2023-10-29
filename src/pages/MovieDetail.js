@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams, Link } from "react-router-dom"
-import useTitle from "../hook/useTitle"
+import { useParams } from "react-router-dom"
 import imageNotFound from '../assets/imageNotFound.jpg'
 
 export const MovieDetail = () => {
